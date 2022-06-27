@@ -1,0 +1,247 @@
+Unity Editor version:    2020.3.30f1 (1fb1bf06830e)
+Branch:                  2020.3/staging
+Build type:              Release
+Batch mode:              YES
+macOS version:           Version 12.3.1 (Build 21E258)
+Darwin version:          21.4.0
+Architecture:            x86_64
+Running under Rosetta:   YES
+Available memory:        16384 MB
+Using pre-set license
+Pro License: NO
+
+COMMAND LINE ARGUMENTS:
+/Applications/Unity/Hub/Editor/2020.3.30f1/Unity.app/Contents/MacOS/Unity
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+/Users/Haani/Downloads/3DLecture
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+50841
+Successfully changed project path to: /Users/Haani/Downloads/3DLecture
+/Users/Haani/Downloads/3DLecture
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 72.76 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.30f1 (1fb1bf06830e)
+[Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/2020.3.30f1/Unity.app/Contents/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path /Users/Haani/Downloads/3DLecture/Assets
+GfxDevice: creating device client; threaded=0
+2022-06-26 19:27:27.074 Unity[41549:1983865] (null) preferred device: Apple M1 (high power)
+2022-06-26 19:27:27.074 Unity[41549:1983865] Metal devices available: 1
+2022-06-26 19:27:27.074 Unity[41549:1983865] 0: Apple M1 (high power)
+2022-06-26 19:27:27.074 Unity[41549:1983865] Using device Apple M1 (high power)
+Initializing Metal device caps: Apple M1
+Initialize mono
+Mono path[0] = '/Applications/Unity/Hub/Editor/2020.3.30f1/Unity.app/Contents/Managed'
+Mono path[1] = '/Applications/Unity/Hub/Editor/2020.3.30f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = '/Applications/Unity/Hub/Editor/2020.3.30f1/Unity.app/Contents/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56549
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: /Applications/Unity/Hub/Editor/2020.3.30f1/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: /Applications/Unity/Hub/Editor/2020.3.30f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Registered in 0.001774 seconds.
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 67.05 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.222 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2223ms)
+		BeginReloadAssembly (151ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (4ms)
+		EndReloadAssembly (1899ms)
+			LoadAssemblies (148ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (296ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (66ms)
+			SetupLoadedEditorAssemblies (1104ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (21ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (67ms)
+				BeforeProcessingInitializeOnLoad (32ms)
+				ProcessInitializeOnLoadAttributes (755ms)
+				ProcessInitializeOnLoadMethodAttributes (226ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (2ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.004554 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /Users/Haani/Downloads/3DLecture/Library/PackageCache/com.unity.collab-proxy@1.15.15/Lib/Editor/PlasticSCM/unityplastic.dll
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 66.73 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  4.555 seconds
+Domain Reload Profiling:
+	ReloadAssembly (4558ms)
+		BeginReloadAssembly (588ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (59ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (87ms)
+		EndReloadAssembly (3754ms)
+			LoadAssemblies (392ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (671ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (139ms)
+			SetupLoadedEditorAssemblies (2046ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (18ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (67ms)
+				BeforeProcessingInitializeOnLoad (145ms)
+				ProcessInitializeOnLoadAttributes (1769ms)
+				ProcessInitializeOnLoadMethodAttributes (42ms)
+				AfterProcessingInitializeOnLoad (3ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (47ms)
+Platform modules already initialized, skipping
+Validating Project structure ... 0.018861 seconds.
+Shader import version has changed; will reimport all shaders...
+Upgrading shader files ...0.038460 seconds.
+Application.AssetDatabase Initial Script Refresh Start
+RefreshInfo: InitialScriptRefreshV2(NoUpdateAssetOptions) scanfilter:  ... 1 filters
+RefreshProfiler: Total: 0.000ms
+Application.AssetDatabase Initial Script Refresh End
+Application.AssetDatabase.Refresh Start
+Application.AssetDatabase.Refresh End
+RefreshInfo: StopAssetImportingV2(ForceSynchronousImport) scanfilter: 
+RefreshProfiler: Total: 0.000ms
+Launching external process: /Applications/Unity/Hub/Editor/2020.3.30f1/Unity.app/Contents/Tools/UnityShaderCompiler
+Launched and connected shader compiler UnityShaderCompiler after 0.05 seconds
+Initializing Unity extensions:
+[C# Project] Writing /Users/Haani/Downloads/3DLecture/3DLecture.sln because it has changed
+[C# Project] First difference on line 4
+
+[C# Project] Current /Users/Haani/Downloads/3DLecture/3DLecture.sln:
+[C# Project]   004: Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp", "Assembly-CSharp.csproj", "{7C083CCA-5859-9978-920A-B7DFFE5CE0FC}"
+[C# Project]   005: EndProject
+[C# Project]   006: Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp-firstpass", "Assembly-CSharp-firstpass.csproj", "{83EAA049-FA63-FB3C-58E6-FFEF74903BED}"
+[C# Project]   007: EndProject
+[C# Project]   008: Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp-Editor-firstpass", "Assembly-CSharp-Editor-firstpass.csproj", "{691974A9-400C-2833-2897-6148B884D2DA}"
+
+[C# Project] New /Users/Haani/Downloads/3DLecture/3DLecture.sln:
+[C# Project]   004: Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnityEngine.UI", "UnityEngine.UI.csproj", "{69DD8654-5E39-54A4-3F5A-0893283937B4}"
+[C# Project]   005: EndProject
+[C# Project]   006: Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnityEngine.TestRunner", "UnityEngine.TestRunner.csproj", "{799AA868-F796-8E15-79F0-37806402BC37}"
+[C# Project]   007: EndProject
+[C# Project]   008: Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnityEngine.UI.Tests", "UnityEngine.UI.Tests.csproj", "{E1DC59D5-C1BE-1E75-3C7C-3214FBCEF32B}"
+[C# Project] Writing /Users/Haani/Downloads/3DLecture/Assembly-CSharp.csproj because it has changed
+[C# Project] First difference on line 634
+
+[C# Project] Current /Users/Haani/Downloads/3DLecture/Assembly-CSharp.csproj:
+[C# Project]   634:  <Reference Include="Unity.TerrainTools">
+[C# Project]   635:  <HintPath>/Users/Haani/Downloads/3DLecture/Library/ScriptAssemblies/Unity.TerrainTools.dll</HintPath>
+[C# Project]   636:  </Reference>
+[C# Project]   637:  <Reference Include="Unity.VSCode.Editor">
+[C# Project]   638:  <HintPath>/Users/Haani/Downloads/3DLecture/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
+
+[C# Project] New /Users/Haani/Downloads/3DLecture/Assembly-CSharp.csproj:
+[C# Project]   634:   </ItemGroup>
+[C# Project]   635:   <ItemGroup>
+[C# Project]   636:     <ProjectReference Include="Assembly-CSharp-firstpass.csproj">
+[C# Project]   637:       <Project>{83EAA049-FA63-FB3C-58E6-FFEF74903BED}</Project>
+[C# Project]   638:       <Name>Assembly-CSharp-firstpass</Name>
+[C# Project] Writing /Users/Haani/Downloads/3DLecture/Assembly-CSharp-firstpass.csproj because it has changed
+[C# Project] First difference on line 744
+
+[C# Project] Current /Users/Haani/Downloads/3DLecture/Assembly-CSharp-firstpass.csproj:
+[C# Project]   744:  <Reference Include="Unity.TerrainTools">
+[C# Project]   745:  <HintPath>/Users/Haani/Downloads/3DLecture/Library/ScriptAssemblies/Unity.TerrainTools.dll</HintPath>
+[C# Project]   746:  </Reference>
+[C# Project]   747:  <Reference Include="Unity.VSCode.Editor">
+[C# Project]   748:  <HintPath>/Users/Haani/Downloads/3DLecture/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
+
+[C# Project] New /Users/Haani/Downloads/3DLecture/Assembly-CSharp-firstpass.csproj:
+[C# Project]   744:   </ItemGroup>
+[C# Project]   745:   <ItemGroup>
+[C# Project]   746:     <ProjectReference Include="Unity.TerrainTools.csproj">
+[C# Project]   747:       <Project>{8231730D-2263-905B-18AD-1003A74BC4C9}</Project>
+[C# Project]   748:       <Name>Unity.TerrainTools</Name>
+[C# Project] Writing /Users/Haani/Downloads/3DLecture/Unity.Timeline.Editor.csproj because it has changed
+[C# Project] First difference on line 256
+
+[C# Project] Current /Users/Haani/Downloads/3DLecture/Unity.Timeline.Editor.csproj:
+[C# Project]   256:      <Compile Include="Packages\com.unity.timeline\Editor\inspectors\TrackAssetInspector.cs" />
+[C# Project]   257:      <Compile Include="Packages\com.unity.timeline\Editor\Utilities\AnimatedParameterUtility.cs" />
+[C# Project]   258:      <Compile Include="Packages\com.unity.timeline\Editor\Window\TimelineWindow_Manipulators.cs" />
+[C# Project]   259:      <Compile Include="Packages\com.unity.timeline\Editor\treeview\PickerUtils.cs" />
+[C# Project]   260:      <Compile Include="Packages\com.unity.timeline\Editor\inspectors\BasicAssetInspector.cs" />
+
+[C# Project] New /Users/Haani/Downloads/3DLecture/Unity.Timeline.Editor.csproj:
+[C# Project]   256:      <Compile Include="Packages\com.unity.timeline\Editor\Utilities\AnimatedParameterUtility.cs" />
+[C# Project]   257:      <Compile Include="Packages\com.unity.timeline\Editor\inspectors\TrackAssetInspector.cs" />
+[C# Project]   258:      <Compile Include="Packages\com.unity.timeline\Editor\Window\TimelineWindow_Manipulators.cs" />
+[C# Project]   259:      <Compile Include="Packages\com.unity.timeline\Editor\treeview\PickerUtils.cs" />
+[C# Project]   260:      <Compile Include="Packages\com.unity.timeline\Editor\inspectors\BasicAssetInspector.cs" />
+[C# Project] Writing /Users/Haani/Downloads/3DLecture/Assembly-CSharp-Editor-firstpass.csproj because it has changed
+[C# Project] First difference on line 650
+
+[C# Project] Current /Users/Haani/Downloads/3DLecture/Assembly-CSharp-Editor-firstpass.csproj:
+[C# Project]   650:  <Reference Include="UnityEngine.TestRunner">
+[C# Project]   651:  <HintPath>/Users/Haani/Downloads/3DLecture/Library/ScriptAssemblies/UnityEngine.TestRunner.dll</HintPath>
+[C# Project]   652:  </Reference>
+[C# Project]   653:  <Reference Include="UnityEditor.TestRunner">
+[C# Project]   654:  <HintPath>/Users/Haani/Downloads/3DLecture/Library/ScriptAssemblies/UnityEditor.TestRunner.dll</HintPath>
+
+[C# Project] New /Users/Haani/Downloads/3DLecture/Assembly-CSharp-Editor-firstpass.csproj:
+[C# Project]   650:   </ItemGroup>
+[C# Project]   651:   <ItemGroup>
+[C# Project]   652:     <ProjectReference Include="Assembly-CSharp-firstpass.csproj">
+[C# Project]   653:       <Project>{83EAA049-FA63-FB3C-58E6-FFEF74903BED}</Project>
+[C# Project]   654:       <Name>Assembly-CSharp-firstpass</Name>
+2022-06-26 19:27:39.475 Unity[41549:1983865] NSEventModifierFlagFunction specified to -setKeyEquivalentModifierMask: for item <NSMenuItem: 0x6000022f6ed0 Font Asset, ke='Command-F12'>, but is only supported for system-provided menu items; will not be used
+2022-06-26 19:27:39.483 Unity[41549:1983865] NSEventModifierFlagFunction specified to -setKeyEquivalentModifierMask: for item <NSMenuItem: 0x6000022ca370 Font Asset, ke='Command-F12'>, but is only supported for system-provided menu items; will not be used
+========================================================================
+Worker process is ready to serve import requests
+Refreshing native plugins compatible for Editor in 0.61 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1847 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 239.3 MB.
+System memory in use after: 237.9 MB.
+
+Unloading 199 unused Assets to reduce memory usage. Loaded Objects now: 2341.
+Total: 5.211500 ms (FindLiveObjects: 0.180542 ms CreateObjectMapping: 0.080250 ms MarkObjects: 3.752209 ms  DeleteObjects: 1.196708 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  path: Assets/Scripts/MyPlayerController.cs
+  artifactKey: Guid(e379063c1ca3d4429afda3041396c465) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/MyPlayerController.cs using Guid(e379063c1ca3d4429afda3041396c465) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f087264c46bb4c391b8ebc1269d23f7') in 0.361073 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 12.359319 seconds.
+  path: Assets/Scripts/BulletController.cs
+  artifactKey: Guid(4bc8471e2d2fb4d3b9f81045fe9da65d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/BulletController.cs using Guid(4bc8471e2d2fb4d3b9f81045fe9da65d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '447641f4688e6c5b7c390b39c97d6e76') in 0.002466 seconds 
